@@ -1,12 +1,11 @@
-
-
-<body class="vertical-layout page-header-light vertical-menu-collapsible vertical-dark-menu preload-transitions 1-column login-bg   blank-page blank-page" data-open="click" data-menu="vertical-dark-menu" data-col="1-column">
-    <div class="row">
+ <div class="row">
         <div class="col s12">
             <div class="container">
                 <div id="login-page" class="row">
                     <div class="col s12 m6 l4 z-depth-4 card-panel border-radius-6 login-card bg-opacity-8">
-                        <form class="login-form">
+                   
+
+                        <form action="<?= base_url('/register/save'); ?>"  class="login-form" method="post">
                             <div class="row">
                                 <div class="input-field col s12">
                                     <h5 class="ml-4">Sign in</h5>
@@ -15,7 +14,7 @@
                             <div class="row margin">
                                 <div class="input-field col s12">
                                     <i class="material-icons prefix pt-2">person_outline</i>
-                                    <input id="username" type="text">
+                                    <input id="username" type="text"  name="name"  value="">
                                     <label for="username" class="center-align">Username</label>
                                 </div>
                             </div>
@@ -43,7 +42,7 @@
                             </div>
                             <div class="row">
                                 <div class="input-field col s6 m6 l6">
-                                    <p class="margin medium-small"><a href="user-register.html">Register Now!</a></p>
+                                    <p class="margin medium-small"><a href="<?= base_url('register'); ?>">Register Now!</a></p>
                                 </div>
                                 <div class="input-field col s6 m6 l6">
                                     <p class="margin right-align medium-small"><a href="user-forgot-password.html">Forgot password ?</a></p>

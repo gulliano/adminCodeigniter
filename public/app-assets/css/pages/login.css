@@ -3,7 +3,7 @@
 ------------------------------------------*/
 .login-bg
 {
-    background-image: url('/adminCodeigniter/public/app-assets/images/flat-bg.jpg');
+  /*  background-image: url('/app-assets/images/flat-bg.jpg');*/
     background-repeat: no-repeat;
     background-size: cover;
 }
