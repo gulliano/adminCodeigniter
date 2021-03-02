@@ -1,8 +1,9 @@
 <?php
+namespace App\Controllers\Admin;
 
-namespace App\Controllers;
+use CodeIgniter\Controller;
 
-class Administration extends BaseController
+class Accueil extends Controller
 {
 	public function index()
 	{	
